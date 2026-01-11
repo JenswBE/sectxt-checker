@@ -2,6 +2,8 @@
 
 **DISCLAIMER:** This project is generated with CoPilot, but manually tweaked and tested. No license is attached as I'm not sure where CoPilot based its code on.
 
+---
+
 Checks domain(s) for a valid security.txt
 
 This tool reads a list of domains from a YAML configuration file and uses the [sectxt](https://github.com/DigitalTrustCenter/sectxt) library to validate their security.txt files.

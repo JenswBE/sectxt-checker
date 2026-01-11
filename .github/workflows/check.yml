@@ -24,5 +24,7 @@ jobs:
           uv pip install -r requirements.txt
 
       - name: Run sectxt-checker
+        env:
+          HEALTHCHECK_URL: ${{ vars.HEALTHCHECK_URL }}
         run: |
           uv run checker.py
