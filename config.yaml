@@ -1,0 +1,12 @@
+domains:
+  - bjoetiek-y.be
+  - interwego.com
+  - jensw.be
+  - w-technieken.be
+
+# Minimum number of days the Expires field must be in the future (default: 30)
+min_expiry_days: 30
+
+# Enable healthcheck ping after script completion (default: false)
+# Requires HEALTHCHECK_URL environment variable to be set
+healthcheck_enabled: true
